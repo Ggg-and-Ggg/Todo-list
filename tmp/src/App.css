@@ -1,0 +1,69 @@
+.todoContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #2164c9; /* Match the background color */
+}
+.header {
+  text-align: center;
+  color: #078095;
+  height: 64px;
+  padding-inline: 50px; /* Use hyphenated property for padding-inline */
+  line-height: 64px;
+  background-color: #7dbcea;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-section,
+.middle-section,
+.right-section {
+  flex: 1;
+  padding: 16px;
+  border: 1px solid #ddd; /* Optional: Add borders for visual separation */
+  margin: 8px; /* Optional: Add margins for visual separation */
+}
+
+.todoColumn {
+  width: 30%;
+  margin: 0 10px;
+}
+
+/* Styling for the header of each column */
+.columnHeader {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; 
+  background-color: rgb(75, 130, 247);/* Assuming a dark font color */
+}
+
+/* Styling for the cards */
+.todoCard {
+  background-color: rgb(75, 130, 247); /* Card background */
+  border: 1px solid #e8e8e8; /* Border color */
+  margin-bottom: 10px; /* Space between cards */
+}
+
+.todoCard .ant-card-body {
+  padding: 16px;
+}
+.todoButton {
+  margin-right: 8px;
+  border: 1px solid #1890ff; /* Button border color */
+  background-color: #1890ff; /* Button background color */
+  color: #fff; /* Button text color */
+}
+
+.todoButton:hover {
+  border-color: #40a9ff; /* Button border color on hover */
+  background-color: #40a9ff; /* Button background color on hover */
+  color: #fff; /* Button text color on hover */
+}
+
+.task-card {
+  background-color: #e6f7ff; /* Light blue background color */
+  border: 1px solid #91d5ff; /* Border color */
+  margin-bottom: 16px; /* Adjust margin as needed */
+}
